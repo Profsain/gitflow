@@ -1,12 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home: GitFlow<title>
-</head>
-<body>
-  <h1>Welcome to GitFlow Tutorial</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home: GitFlow</title>
+  </head>
+  <body>
+    <header
+      style="
+        background-color: black;
+        width: 100%;
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      "
+    >
+      <img src="images/logo.png" alt="profsain logo" id="brand-logo" />
+      <nav>
+        <ul
+          style="
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around; ;
+          "
+        >
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skill">Skills</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home" style="height: 600px; background-color: bisque">
+        <h1>Profsain Husain</h1>
+        <h2>Home Section</h2>
+
+        <form action="https://formspree.io/f/mknavowk" method="POST">
+          <label for="fname">First name:</label><br />
+          <input type="text" id="fname" name="fname" /><br />
+
+          <label for="lname">Last name:</label><br />
+          <input type="text" id="lname" name="lname" /><br /><br />
+
+          <label for="username">Username:</label><br />
+          <input type="text" id="username" name="username" /><br /><br />
+
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" /><br /><br />
+
+          <label for="password">Password:</label><br />
+          <input type="password" id="password" name="password" /><br /><br />
+
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+
+      <section
+        id="services"
+        style="height: 600px; background-color: rgb(171, 122, 62)"
+      >
+        <h2>services Section</h2>
+      </section>
+      <section
+        id="about"
+        style="height: 600px; background-color: rgb(69, 231, 175)"
+      >
+        <h2>About Section</h2>
+      </section>
+      <section
+        id="skills"
+        style="height: 600px; background-color: rgb(242, 86, 47)"
+      >
+        <h2>Skills Section</h2>
+      </section>
+      <section
+        id="portfolio"
+        style="height: 600px; background-color: rgb(53, 8, 136)"
+      >
+        <h2>Portfolio Section</h2>
+      </section>
+      <section
+        id="blog"
+        style="height: 600px; background-color: rgb(153, 21, 160)"
+      >
+        <h2>Blog Section</h2>
+      </section>
+      <section
+        id="contact"
+        style="height: 600px; background-color: rgb(58, 56, 54)"
+      >
+        <h2>Contact Section</h2>
+      </section>
+    </main>
+    <footer style="height: 40px; background-color: rgb(10, 6, 1)">
+      <p>&copy; 2021 Profsain Husain</p>
+    </footer>
+  </body>
 </html>
